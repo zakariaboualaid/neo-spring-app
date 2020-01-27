@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GreetingController {
 
+		// My bad I broke this in the last merge, I didn't read the tests
+		// I am putting it back. 
     private static final String template = "Hello there, %s!";
     private final AtomicLong counter = new AtomicLong();
 
