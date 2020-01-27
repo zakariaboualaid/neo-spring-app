@@ -1,4 +1,4 @@
-FROM 617782583250.dkr.ecr.us-east-2.amazonaws.com/openjdk:8-jdk-slim
+FROM 617782583250.dkr.ecr.us-east-2.amazonaws.com/jx-dev/openjdk:8-jdk-slim
 ENV PORT 8080
 EXPOSE 8080
 COPY build/libs/*.jar /opt/app.jar
